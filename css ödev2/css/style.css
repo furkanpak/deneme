@@ -10,24 +10,32 @@ img {
 }
 
 .soldiv {
+    display: table-cell;
     background-color: rgb(126, 229, 218);
-    width: 38.5%;
-    float: left;
-    height: 80px;
+    margin: 5px;
+    padding:10px;
 }
 
 .merkezdiv {
+    display: table-cell;
     background-color: rgb(112, 204, 194);
-    width: 20%;
-    float: left;
-    margin-left: 0.5%;
-    height: 80px;
+    margin: 5px;
+    padding: 2px;
 }
 
 .sagdiv {
+    display: table-cell;
     background-color: rgb(98, 179, 170);
-    width: 39.5%;
-    float: right;
-    margin-right: 1%;
-    height: 80px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+}
+
+table {
+    width: 100%;
+    justify-content: center;
 }
